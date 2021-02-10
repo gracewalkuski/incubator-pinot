@@ -176,7 +176,7 @@ public class PinotPreparedStatement extends AbstractBasePreparedStatement {
   public boolean execute()
       throws SQLException {
     ResultSet resultSet = executeQuery();
-    return resultSet.firgit st();
+    return resultSet.first();
   }
 
   @Override
